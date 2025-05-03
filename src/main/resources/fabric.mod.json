@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "missing-palette-fix",
+	"version": "1.0",
+	"name": "Missing Palette Fix",
+	"description": "Fabric 1.21.1 Port of https://github.com/ByThePowerOfScience/MissingPaletteFix",
+	"authors": [
+		"ZZ_404"
+	],
+	"contact": {
+		"homepage": "none yet",
+		"sources": "none yet"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/missing-palette-fix/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"missing_palette_fix.zz_404.MissingPaletteFix"
+		]
+	},
+	"mixins": [
+		"missing-palette-fix.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
